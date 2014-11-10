@@ -31,9 +31,9 @@ Macでは、たとえば、次のように実行する。
 
 brew install autoconf automake libtool npm node
 
-## Redisのインストール
+### Redisのインストール
 
-### Windows
+Windows
 
 こちらからダウンロード
 
