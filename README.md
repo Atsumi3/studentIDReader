@@ -31,10 +31,20 @@ Macでは、たとえば、次のように実行する。
 
 brew install autoconf automake libtool npm node
 
+## Redisのインストール
+
+### Windows
+
+こちらからダウンロード
+
+https://github.com/MSOpenTech/redis/blob/2.8/bin/release/redis-2.8.17.zip
+
+解凍したらredis-serverを管理者権限で実行
+
 
 ### studentIDReader.jsのインストール
 
-1. ワーキングディレクトリで git clone https://github.com/kubohiroya/studentIDReader.js を実行してstudentIDReader.jsのソースコードを取得する。
+1. ワーキングディレクトリで git clone https://github.com/Atsumi3/studentIDReader を実行してstudentIDReader.jsのソースコードを取得する。
 2. (cd studentIDReader.js; npm install) を実行する。
  
 
