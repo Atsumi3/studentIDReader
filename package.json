@@ -2,14 +2,14 @@
   "name": "studentIDReader.js",
   "description": "FeliCa Student ID card reader to check attendees.",
   "version": "1.0.0",
-  "author": {
-    "name": "Hiroya Kubo",
-    "email": "hiroya@cuc.ac.jp"
-  },
-  "homepage": "https://github.com/kubohiroya/studentIDReader.js",
+  "contributors": [
+  	{"name":"Hiroya Kubo", "email":"hiroya@cuc.ac.jp"},
+  	{"name":"Atsumi3", "email":"b140096@cuc.ac.jp"}
+  ],
+  "homepage": "https://github.com/Atsumi3/studentIDReader",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kubohiroya/studentIDReader.js.git"
+    "url": "git://github.com/Atsumi3/studentIDReader.js"
   },
   "license": "MIT",
   "engines": {
@@ -47,7 +47,7 @@
   },
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/kubohiroya/studentIDReader.js/issues"
+    "url": "https://github.com/Atsumi3/studentIDReader.js/issues"
   },
   "_id": "studentIDReader.js@1.0.0",
   "_from": "studentIDReader.js@*"
