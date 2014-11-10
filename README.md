@@ -125,5 +125,3 @@ bin/updateAttendeeTableh 履修者名簿ファイルの保存されているデ�
 
 TODO
 ======
-
-* https://github.com/kubohiroya/studentIDReader.js/issues?milestone=1&state=open
