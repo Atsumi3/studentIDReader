@@ -30,11 +30,9 @@
     "fs-extra": "^0.12.0",
     "iconv": "^2.1.4",
     "node-libpafe": "git://github.com/kubohiroya/node-libpafe.git",
-    "node-qrcode": "git://github.com/soldair/node-qrcode.git",
     "node-xlsx": "^0.5.1",
     "node-zip": "^1.1.0",
     "open": "0.0.5",
-    "qrcode": "git://github.com/soldair/node-qrcode.git",
     "redis": "^0.12.1",
     "ws": "^0.4.32"
   },

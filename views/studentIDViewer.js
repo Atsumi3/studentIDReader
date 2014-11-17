@@ -445,12 +445,11 @@ $(function () {
             $('#attendeeList').hide();
         }
     });
-
+var url = 'http://' + window.location.hostname + ':' + window.location.port + '/?key=' + sessionKey;
+		    
     $('#enrollmentTable').tablesorter();
 
-    var qrcode = new QRCodeLib.QRCodeDraw();
-    var url = 'http://' + window.location.hostname + ':' + window.location.port + '/?key=' + sessionKey;
-    qrcode.draw($('#qrcode'), url, function () {});
+
     $('#adminConsoleUrl').text(url);
 });
 
