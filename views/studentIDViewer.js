@@ -445,11 +445,10 @@ $(function () {
             $('#attendeeList').hide();
         }
     });
-var url = 'http://' + window.location.hostname + ':' + window.location.port + '/?key=' + sessionKey;
-		    
+
     $('#enrollmentTable').tablesorter();
 
-
+    var url = 'http://' + window.location.hostname + ':' + window.location.port + '/?key=' + sessionKey;
     $('#adminConsoleUrl').text(url);
 });
 
