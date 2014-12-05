@@ -29,7 +29,7 @@ router.post('/', function(req, res) {
         var hash = String(req.body.hash).replace(/-/g,'+').replace(/_/g, '/');
         redisClient.get(hash, function(err, val){
             if(val){
-                res.send({auth:true});
+                res.send({auth:true, hash:hash});
             }else{
                 res.send({auth:false});
             }
