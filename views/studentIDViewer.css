@@ -91,12 +91,16 @@ div#console{
  top: 64px;
  right: 64px;
  width: 240px;
- height: 175px;
+ height: 375px;
  border: 2px solid #888;
  background-color: white;
  margin: 0 0 0 0;
  padding: 2px 8px 2px 8px;
  box-shadow: 0 2px 6px rgba(0,0,0,0.5), 0px -10px rgba(255,255,255,0.3), 0 10px rgba(255,255,255,0.2), 0 10px 10px rgba(255,255,255,0.25), 0 5px 5px rgba(0,0,0,0.3);
+}
+
+div#qrcode2{
+ text-align: center;
 }
 
 #time{

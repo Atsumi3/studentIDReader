@@ -50,10 +50,15 @@
     <script type='text/javascript'>
         $(document).ready(function(){
             var url = 'http://' + window.location.hostname + ':' + window.location.port + '/?key=' + sessionKey;
-		    $('#qrcode').qrcode({                       //demo2:幅や高さを指定する場合
-		         width:200,                               //QRコードの幅
-		         height:200,                              //QRコードの高さ 
-		         text:url               //QRコードの内容
+		    $('#qrcode').qrcode({
+		         width:200,
+		         height:200, 
+		         text:url
+		   	});		    
+            $('#qrcode2').qrcode({
+		         width:200,
+		         height:200,
+		         text:url
 		   	});
         });
     </script>
@@ -116,15 +121,14 @@
                     <div id='datetime'>
                         <div id='date'>0000年 00月 00日 ○曜日 0限</div>
                         <div id='time'>00:00:00</div>
-                        </span>                        
-                        <div id='qrcode'></div>
                     </div>
                     <!--img src='' id='configOpen' alt='configOpen'/-->
                     <div id='heartBeat'>
                         <div id='heartBeat0'>*</div>
                         <div id='heartBeat1'>*</div>
                     </div>
-                    </div>
+                    <div id='qrcode2'></div>    
+                </div>
 
                 <div id='adminConsole' class='adminConsole'>
                     ADMIN CONSOLE
