@@ -6,3 +6,4 @@ sendmail.js
 etc
 build
 key/*
+*.log
